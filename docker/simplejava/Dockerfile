@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-alpine
+FROM eclipse-temurin:22-jdk-alpine
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 RUN javac Main.java
