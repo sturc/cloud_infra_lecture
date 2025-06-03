@@ -1,4 +1,5 @@
 k8s/k8s_deployment_instructions.md
 cloud_infra_lecture.code-workspace
 readtextfile/
-
+docker/readandwritedata/docker-compose.yaml
+k8s_JS/
