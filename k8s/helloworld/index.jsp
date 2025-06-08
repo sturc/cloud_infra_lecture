@@ -9,11 +9,11 @@
 <%! Date creationDate = new Date();%> 
 <%!
         public static boolean isPrime(long num) {
-           if (num <= 1) {
+           if (num <= 1L) {
               return false;
             }
-            for (int i = 2; i < num; i++) {
-                if (num % i == 0) {
+            for (long i = 2L; i < num; i++) {
+                if (num % i == 0L) {
                     return false;
                 }
             }
